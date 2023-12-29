@@ -1,4 +1,4 @@
-**Infroduciton to Azure Self-Hosted Integration Runtime**
+**Introduction to Azure Self-Hosted Integration Runtime**
 =====================================================
 This is a collection of notes and links to resources about Azure Self-Hosted Integration Runtime (SHIR).
 
