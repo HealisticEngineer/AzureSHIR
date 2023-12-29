@@ -1,0 +1,67 @@
+<mxfile host="65bd71144e">
+    <diagram id="mjatOwK4l7Ppw96cYCik" name="Page-1">
+        <mxGraphModel dx="2606" dy="1139" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="14" value="" style="rounded=0;whiteSpace=wrap;rotation=90;strokeColor=none;html=1;labelBackgroundColor=none;fontColor=default;" parent="1" vertex="1">
+                    <mxGeometry x="76.88" y="75.63" width="696.25" height="850" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="" style="aspect=fixed;points=[];align=center;image;fontSize=12;image=img/lib/azure2/databases/Data_Factory.svg;html=1;labelBackgroundColor=none;fontColor=default;" parent="1" vertex="1">
+                    <mxGeometry x="138.5" y="446" width="68" height="68" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="" style="rounded=1;whiteSpace=wrap;strokeWidth=4;html=1;labelBackgroundColor=none;fontColor=default;" parent="1" vertex="1">
+                    <mxGeometry x="380.59" y="287" width="250" height="124" as="geometry"/>
+                </mxCell>
+                <mxCell id="45" value="" style="edgeStyle=none;flowAnimation=1;html=1;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="12" target="43">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="" style="aspect=fixed;points=[];align=center;image;fontSize=12;image=img/lib/azure2/networking/Firewalls.svg;html=1;labelBackgroundColor=none;fontColor=default;" parent="1" vertex="1">
+                    <mxGeometry x="371" y="267" width="71" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="" style="edgeStyle=none;flowAnimation=1;html=1;labelBackgroundColor=none;fontColor=default;" parent="1" source="13" target="12" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="579.8200613496933" y="340" as="targetPoint"/>
+                        <mxPoint x="582.3378909612625" y="448" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="20" value="" style="rounded=1;whiteSpace=wrap;strokeWidth=4;html=1;labelBackgroundColor=none;fontColor=default;" parent="1" vertex="1">
+                    <mxGeometry x="109.99999999999989" y="620" width="310" height="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="MyDB_Ser" style="text;strokeColor=none;align=center;fillColor=none;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=4;html=1;labelBackgroundColor=none;fontColor=default;" parent="1" vertex="1">
+                    <mxGeometry x="475.5899999999999" y="297" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="Public endpoint &lt;br&gt;&lt;br&gt;MyDB_Ser.database.windows.net" style="text;whiteSpace=wrap;align=center;html=1;labelBackgroundColor=none;fontColor=default;" parent="1" vertex="1">
+                    <mxGeometry x="301.5" y="217" width="210" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="" style="aspect=fixed;points=[];align=center;image;fontSize=12;image=img/lib/azure2/databases/SQL_Server.svg;html=1;labelBackgroundColor=none;fontColor=default;" parent="1" vertex="1">
+                    <mxGeometry x="320.40999999999997" y="642" width="68" height="68" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="" style="edgeStyle=none;flowAnimation=1;html=1;labelBackgroundColor=none;fontColor=default;" parent="1" source="4" target="5" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" value="" style="edgeStyle=none;flowAnimation=1;html=1;labelBackgroundColor=none;fontColor=default;" parent="1" source="4" target="13" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="" style="aspect=fixed;points=[];align=center;image;fontSize=12;image=img/lib/azure2/compute/Virtual_Machine.svg;html=1;labelBackgroundColor=none;fontColor=default;" parent="1" vertex="1">
+                    <mxGeometry x="137.5000000000001" y="644" width="69" height="64" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="On Premise SQL" style="text;strokeColor=none;align=center;fillColor=none;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=4;html=1;labelBackgroundColor=none;fontColor=default;" parent="1" vertex="1">
+                    <mxGeometry x="299.59000000000003" y="720" width="100" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" value="Self-Hosted Intergration runtime" style="text;strokeColor=none;align=center;fillColor=none;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=4;html=1;labelBackgroundColor=none;fontColor=default;" parent="1" vertex="1">
+                    <mxGeometry x="116.99999999999989" y="720" width="110" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="43" value="" style="aspect=fixed;points=[];align=center;image;fontSize=12;image=img/lib/azure2/databases/Azure_SQL.svg;html=1;labelBackgroundColor=none;fontColor=default;" parent="1" vertex="1">
+                    <mxGeometry x="479.67999999999995" y="334.75" width="64" height="46" as="geometry"/>
+                </mxCell>
+                <mxCell id="44" value="Data Factory" style="text;strokeColor=none;align=center;fillColor=none;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=4;html=1;labelBackgroundColor=none;fontColor=default;" parent="1" vertex="1">
+                    <mxGeometry x="133.75" y="400" width="77.5" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="46" value="Data Factory to PaaS and On Premise via Public" style="text;whiteSpace=wrap;align=center;fontSize=20;fontStyle=1;html=1;labelBackgroundColor=none;fontColor=default;" vertex="1" parent="1">
+                    <mxGeometry y="160" width="480" height="40" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
