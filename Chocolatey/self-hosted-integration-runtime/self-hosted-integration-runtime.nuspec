@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>microsoft-integration-runtime</id>
+    <version>5.32.8600.2</version>
+    <packageSourceUrl>https://github.com/flcdrg/au-packages/tree/master/sql-server-2019-cumulative-update</packageSourceUrl>
+    <owners>HealisticEngineer</owners>
+    <title>Microsoft Integration Runtime</title>
+    <authors>Microsoft Corporation</authors>
+    <projectUrl>https://www.microsoft.com/en-us/download/details.aspx?id=39717</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/HealisticEngineer/AzureSHIR/main/Chocolatey/data-factory.svg</iconUrl>
+    <copyright>2019 Microsoft Corporation</copyright>
+    <licenseUrl>https://github.com/Azure/Azure-DataFactory/blob/main/LICENSE.txt</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <docsUrl>https://learn.microsoft.com/en-gb/azure/data-factory/create-self-hosted-integration-runtime?tabs=data-factory</docsUrl>
+    <bugTrackerUrl>https://feedback.azure.com/d365community/forum/1219ec2d-6c26-ec11-b6e6-000d3a4f032c</bugTrackerUrl>
+    <tags>Microsoft Integration Runtime</tags>
+    <summary>The latest version of Integration Runtime</summary>
+    <description>The latest version of Integration Runtime at build time.
+
+      #### Supported Operating System
+
+      Windows 10, Windows 11, Windows Server 2016, Windows Server 2019, Windows Server 2022
+      Download and run the IntergrationRuntime.msi (64-bit) to install the Integration Runtime on your computer
+
+      Installation of the self-hosted integration runtime on a domain controller isn't supported.
+
+      Self-hosted integration runtime requires a 64-bit Operating System with .NET Framework 4.7.2 or above. See .NET Framework System Requirements for details.
+      The recommended minimum configuration for the self-hosted integration runtime machine is a 2-GHz processor with 4 cores, 8 GB of RAM, and 80 GB of available hard drive space
+
+      #### Uninstalling
+      Uninstalling with Chocolatey is known to not be reliable, as the uninstaller wants to locate `sql_engine_core_inst_loc.msi` from the original installation media.
+
+      Should you need to uninstall this cumulative update, you may need to revert to manual uninstallation via Programs and Features, Installed Updates.
+
+      ### Package Specific
+
+      #### Package Parameters
+
+      The following package parameters can be set:
+
+      To pass parameters, use `--params "''"` (e.g. `choco install microsoft-integration-runtime [other options] --params="'/ITEM:value /ITEM2:value2'"`).
+
+      Example using /IgnorePendingReboot
+
+      ```
+      choco install microsoft-integration-runtime --params="'/IgnorePendingReboot'"
+      ```
+    </description>
+    <releaseNotes>https://support.microsoft.com/help/5031908</releaseNotes>
+    <dependencies>
+      <dependency id="microsoft-openjdk17" />
+      <dependency id="dotnetfx" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\*.ps1" target="tools" />
+  </files>
+</package>
