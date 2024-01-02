@@ -2,7 +2,7 @@ import-module au
 
 function global:au_SearchReplace {
     @{
-        #   softwareName  = 'Hotfix 3026 for Microsoft SQL Server*(KB4229789)*'
+        #   softwareName  = 'microsoft-integration-runtime *5.36.8726.3*'
         'tools\chocolateyInstall.ps1' = @{
             "(^[$]url\s*=\s*)('.*')"      = "`$1'$($Latest.URL64)'"
             "(^[$]checksum\s*=\s*)('.*')" = "`$1'$($Latest.Checksum64)'"

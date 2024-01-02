@@ -4,7 +4,7 @@
   <metadata>
     <id>microsoft-integration-runtime</id>
     <version>5.32.8600.2</version>
-    <packageSourceUrl>https://github.com/flcdrg/au-packages/tree/master/sql-server-2019-cumulative-update</packageSourceUrl>
+    <packageSourceUrl>https://github.com/HealisticEngineer/AzureSHIR/tree/main/Chocolatey/self-hosted-integration-runtime</packageSourceUrl>
     <owners>HealisticEngineer</owners>
     <title>Microsoft Integration Runtime</title>
     <authors>Microsoft Corporation</authors>
@@ -34,19 +34,8 @@
 
       Should you need to uninstall this cumulative update, you may need to revert to manual uninstallation via Programs and Features, Installed Updates.
 
-      ### Package Specific
 
-      #### Package Parameters
-
-      The following package parameters can be set:
-
-      To pass parameters, use `--params "''"` (e.g. `choco install microsoft-integration-runtime [other options] --params="'/ITEM:value /ITEM2:value2'"`).
-
-      Example using /IgnorePendingReboot
-
-      ```
-      choco install microsoft-integration-runtime --params="'/IgnorePendingReboot'"
-      ```
+      
     </description>
     <releaseNotes>https://support.microsoft.com/help/5031908</releaseNotes>
     <dependencies>

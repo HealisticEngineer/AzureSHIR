@@ -40,7 +40,7 @@ $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
   file  = $fullFilePath
   softwareName  = $softwareName
-  silentArgs    = "/q /IAcceptSQLServerLicenseTerms /Action=Patch /AllInstances"
+  silentArgs    = "/quiet /passive"
   validExitCodes= @(0, 3010, 1641)
 }
 
