@@ -29,12 +29,6 @@
       Self-hosted integration runtime requires a 64-bit Operating System with .NET Framework 4.7.2 or above. See .NET Framework System Requirements for details.
       The recommended minimum configuration for the self-hosted integration runtime machine is a 2-GHz processor with 4 cores, 8 GB of RAM, and 80 GB of available hard drive space
 
-      #### Uninstalling
-      Uninstalling with Chocolatey is known to not be reliable, as the uninstaller wants to locate `sql_engine_core_inst_loc.msi` from the original installation media.
-
-      Should you need to uninstall this cumulative update, you may need to revert to manual uninstallation via Programs and Features, Installed Updates.
-
-
       
     </description>
     <releaseNotes>https://support.microsoft.com/help/5031908</releaseNotes>
