@@ -17,19 +17,18 @@
     <bugTrackerUrl>https://feedback.azure.com/d365community/forum/1219ec2d-6c26-ec11-b6e6-000d3a4f032c</bugTrackerUrl>
     <tags>Microsoft Integration Runtime</tags>
     <summary>The latest version of Integration Runtime</summary>
-    <description>The latest version of Integration Runtime at build time.
+    <description>
+The latest version of Integration Runtime at build time.
 
-      #### Supported Operating System
+#### Supported Operating System
 
-      Windows 10, Windows 11, Windows Server 2016, Windows Server 2019, Windows Server 2022
-      Download and run the IntergrationRuntime.msi (64-bit) to install the Integration Runtime on your computer
+Windows 10, Windows 11, Windows Server 2016, Windows Server 2019, Windows Server 2022
+Download and run the IntergrationRuntime.msi (64-bit) to install the Integration Runtime on your computer
 
-      Installation of the self-hosted integration runtime on a domain controller isn't supported.
+Installation of the self-hosted integration runtime on a domain controller isn't supported.
 
-      Self-hosted integration runtime requires a 64-bit Operating System with .NET Framework 4.7.2 or above. See .NET Framework System Requirements for details.
-      The recommended minimum configuration for the self-hosted integration runtime machine is a 2-GHz processor with 4 cores, 8 GB of RAM, and 80 GB of available hard drive space
-
-      
+Self-hosted integration runtime requires a 64-bit Operating System with .NET Framework 4.7.2 or above. See .NET Framework System Requirements for details.
+The recommended minimum configuration for the self-hosted integration runtime machine is a 2-GHz processor with 4 cores, 8 GB of RAM, and 80 GB of available hard drive space.
     </description>
     <releaseNotes>https://support.microsoft.com/help/5031908</releaseNotes>
     <dependencies>
