@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>purview-ir</id>
+    <version>5.32.8600.2</version>
+    <packageSourceUrl>https://github.com/HealisticEngineer/AzureSHIR/tree/main/Chocolatey/self-hosted-integration-runtime</packageSourceUrl>
+    <owners>HealisticEngineer</owners>
+    <title>Microsoft Purview Integration Runtime</title>
+    <authors>Microsoft Corporation</authors>
+    <projectUrl>https://www.microsoft.com/en-us/download/details.aspx?id=105539</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/HealisticEngineer/AzureSHIR/main/Chocolatey/purview.png</iconUrl>
+    <copyright>2019 Microsoft Corporation</copyright>
+    <licenseUrl>https://learn.microsoft.com/en-us/legal/information-protection/software-license-terms</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <docsUrl>https://learn.microsoft.com/en-us/purview/</docsUrl>
+    <bugTrackerUrl>https://feedback.azure.com/d365community/forum/82d7bddb-fb24-ec11-b6e6-000d3a4f07b8</bugTrackerUrl>
+    <tags>Microsoft Purview Integration Runtime</tags>
+    <summary>The latest version of Purview Integration Runtime</summary>
+    <description>The latest version of Purview Integration Runtime at build time.
+
+      #### Supported Operating System
+
+      Windows Server 2012, Windows Server 2012 R2, Windows Server 2016, Windows Server 2019, Windows Server 2022, Windows 11
+      Microsoft Purview Integration Runtime (Self-hosted) requires a 64-bit Operating System with .NET Framework 4.7.2 or above
+      
+    </description>
+    <releaseNotes>https://learn.microsoft.com/en-us/purview/whats-new</releaseNotes>
+    <dependencies>
+      <dependency id="dotnetfx" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\*.ps1" target="tools" />
+  </files>
+</package>
