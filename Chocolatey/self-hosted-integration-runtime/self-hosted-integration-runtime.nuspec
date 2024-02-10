@@ -31,7 +31,7 @@
 
       
     </description>
-    <releaseNotes>https://support.microsoft.com/help/5031908</releaseNotes>
+    <releaseNotes>https://www.microsoft.com/en-us/download/details.aspx?id=39717</releaseNotes>
     <dependencies>
       <dependency id="microsoft-openjdk17" />
       <dependency id="dotnetfx" />
