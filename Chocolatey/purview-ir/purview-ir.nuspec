@@ -9,7 +9,7 @@
     <title>Microsoft Purview Integration Runtime</title>
     <authors>Microsoft Corporation</authors>
     <projectUrl>https://www.microsoft.com/en-us/download/details.aspx?id=105539</projectUrl>
-    <iconUrl>https://github.com/HealisticEngineer/AzureSHIR/blob/main/Chocolatey/purview.png</iconUrl>
+    <iconUrl>https://cdn.statically.io/gh/HealisticEngineer/AzureSHIR/main/Chocolatey/purview.png</iconUrl>
     <copyright>2019 Microsoft Corporation</copyright>
     <licenseUrl>https://learn.microsoft.com/en-us/legal/information-protection/software-license-terms</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>

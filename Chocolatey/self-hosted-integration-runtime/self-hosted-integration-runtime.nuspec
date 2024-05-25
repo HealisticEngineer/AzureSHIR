@@ -9,7 +9,7 @@
     <title>Microsoft Integration Runtime</title>
     <authors>Microsoft Corporation</authors>
     <projectUrl>https://www.microsoft.com/en-us/download/details.aspx?id=39717</projectUrl>
-    <iconUrl>https://github.com/HealisticEngineer/AzureSHIR/blob/main/Chocolatey/data-factory.svg</iconUrl>
+    <iconUrl>https://cdn.statically.io/gh/HealisticEngineer/AzureSHIR/main/Chocolatey/data-factory.svg</iconUrl>
     <copyright>2019 Microsoft Corporation</copyright>
     <licenseUrl>https://github.com/Azure/Azure-DataFactory/blob/main/LICENSE.txt</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
