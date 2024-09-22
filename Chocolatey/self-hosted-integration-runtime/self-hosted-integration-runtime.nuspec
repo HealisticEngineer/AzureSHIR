@@ -9,7 +9,7 @@
     <title>Microsoft Integration Runtime</title>
     <authors>Microsoft Corporation</authors>
     <projectUrl>https://www.microsoft.com/en-us/download/details.aspx?id=39717</projectUrl>
-    <iconUrl>https://raw.githubusercontent.com/HealisticEngineer/AzureSHIR/main/Chocolatey/data-factory.svg</iconUrl>
+    <iconUrl>https://cdn.statically.io/gh/HealisticEngineer/AzureSHIR/main/Chocolatey/data-factory.svg</iconUrl>
     <copyright>2019 Microsoft Corporation</copyright>
     <licenseUrl>https://github.com/Azure/Azure-DataFactory/blob/main/LICENSE.txt</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
@@ -30,7 +30,7 @@ Installation of the self-hosted integration runtime on a domain controller isn't
 Self-hosted integration runtime requires a 64-bit Operating System with .NET Framework 4.7.2 or above. See .NET Framework System Requirements for details.
 The recommended minimum configuration for the self-hosted integration runtime machine is a 2-GHz processor with 4 cores, 8 GB of RAM, and 80 GB of available hard drive space.
     </description>
-    <releaseNotes>https://support.microsoft.com/help/5031908</releaseNotes>
+    <releaseNotes>https://www.microsoft.com/en-us/download/details.aspx?id=39717</releaseNotes>
     <dependencies>
       <dependency id="microsoft-openjdk17" />
       <dependency id="dotnetfx" />
