@@ -27,7 +27,7 @@
     </description>
     <releaseNotes>https://learn.microsoft.com/en-us/purview/whats-new</releaseNotes>
     <dependencies>
-      <dependency id="dotnetfx" />
+      <dependency id="dotnetfx" version="4.8.0.20220524" />
     </dependencies>
   </metadata>
   <files>

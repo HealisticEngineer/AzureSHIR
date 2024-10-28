@@ -33,8 +33,8 @@
     </description>
     <releaseNotes>https://www.microsoft.com/en-us/download/details.aspx?id=39717</releaseNotes>
     <dependencies>
-      <dependency id="microsoft-openjdk17" />
-      <dependency id="dotnetfx" />
+      <dependency id="microsoft-openjdk17" version="17.0.12" />
+      <dependency id="dotnetfx" version="4.8.0.20220524" />
     </dependencies>
   </metadata>
   <files>
