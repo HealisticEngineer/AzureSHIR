@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>microsoft-integration-runtime</id>
-    <version>5.32.8600.2</version>
+    <version>5.52.9229.1</version>
     <packageSourceUrl>https://github.com/HealisticEngineer/AzureSHIR/tree/main/Chocolatey/self-hosted-integration-runtime</packageSourceUrl>
     <owners>HealisticEngineer</owners>
     <title>Microsoft Integration Runtime</title>
@@ -16,23 +16,31 @@
     <docsUrl>https://learn.microsoft.com/en-gb/azure/data-factory/create-self-hosted-integration-runtime?tabs=data-factory</docsUrl>
     <bugTrackerUrl>https://feedback.azure.com/d365community/forum/1219ec2d-6c26-ec11-b6e6-000d3a4f032c</bugTrackerUrl>
     <tags>Microsoft Integration Runtime</tags>
-    <summary>The latest version of Integration Runtime</summary>
+    <summary>The latest version of Data Factory Integration Runtime</summary>
     <description>
-The latest version of Integration Runtime at build time.
+      The latest version of Integration Runtime at build time.
 
-#### Supported Operating System
+      Self-hosted integration runtime is a component of Azure Data Factory that provides data integration capabilities across different network environments. It allows you to securely move data between on-premises data stores and cloud data stores, and it can also be used to run data flows and pipelines in Azure Data Factory.
+      To enable quick setup the added switch to add the data factory pool key at install.
 
-Windows 10, Windows 11, Windows Server 2016, Windows Server 2019, Windows Server 2022
-Download and run the IntergrationRuntime.msi (64-bit) to install the Integration Runtime on your computer
+      * `/key:` - determines the Data Factory pool key to use for the integration runtime. This is required for the integration runtime to connect to the Data Factory service.
+      If key is not provided, the integration runtime will install but not perform the registration step.
 
-Installation of the self-hosted integration runtime on a domain controller isn't supported.
+      #### Supported Operating System
 
-Self-hosted integration runtime requires a 64-bit Operating System with .NET Framework 4.7.2 or above. See .NET Framework System Requirements for details.
-The recommended minimum configuration for the self-hosted integration runtime machine is a 2-GHz processor with 4 cores, 8 GB of RAM, and 80 GB of available hard drive space.
+      Windows 11, Windows Server 2019, Windows Server 2022, Windows Server 2025
+      Download and run the IntergrationRuntime.msi (64-bit) to install the Integration Runtime on your computer
+
+      * Note: The self-hosted integration runtime is will run on Windows 10 and Windows server 2016, however, due to them being remove from mainstream support they have been dropped from the support of this package.
+
+      Installation of the self-hosted integration runtime on a domain controller isn't supported.
+
+      Self-hosted integration runtime requires a 64-bit Operating System with .NET Framework 4.7.2 or above. See .NET Framework System Requirements for details.
+      The recommended minimum configuration for the self-hosted integration runtime machine is a 2-GHz processor with 4 cores, 8 GB of RAM, and 80 GB of available hard drive space.
     </description>
     <releaseNotes>https://www.microsoft.com/en-us/download/details.aspx?id=39717</releaseNotes>
     <dependencies>
-      <dependency id="microsoft-openjdk17" version="17.0.12" />
+      <dependency id="microsoft-openjdk-21" version="21.0.7" />
       <dependency id="dotnetfx" version="4.8.0.20220524" />
     </dependencies>
   </metadata>
