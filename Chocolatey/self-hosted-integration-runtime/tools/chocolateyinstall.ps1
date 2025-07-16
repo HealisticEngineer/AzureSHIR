@@ -3,7 +3,7 @@ $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 
 $url        = ''
 $checksum   = ''
-$softwareName = 'microsoft-integration-runtime *5.52.9229.1*'
+$softwareName = 'microsoft-integration-runtime *5.55.9306.2*'
 
 $pp = Get-PackageParameters
 
@@ -33,5 +33,5 @@ if ($pp -and $pp['key']) {
   $AUTH_KEY= $($pp['key'])
   $PORT = "8060"
   Start-Process $DmgcmdPath -Wait -ArgumentList "-EnableRemoteAccessInContainer", "$($PORT)"
-  Start-Process $DmgcmdPath -Wait -ArgumentList "-RegisterNewNode", $($AUTH_KEY)", "$($NODE_NAME)" 
+  Start-Process $DmgcmdPath -Wait -ArgumentList "-RegisterNewNode", "$($AUTH_KEY)", "$($NODE_NAME)" 
 }
