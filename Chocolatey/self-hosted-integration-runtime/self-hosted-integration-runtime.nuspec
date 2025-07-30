@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>microsoft-integration-runtime</id>
-    <version>5.55.9306.2</version>
+    <version>5.55.9306.1</version>
     <packageSourceUrl>https://github.com/HealisticEngineer/AzureSHIR/tree/main/Chocolatey/self-hosted-integration-runtime</packageSourceUrl>
     <owners>HealisticEngineer</owners>
     <title>Microsoft Integration Runtime</title>
