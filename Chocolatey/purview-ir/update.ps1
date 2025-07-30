@@ -22,8 +22,7 @@ function global:au_GetLatest {
     # regex expresion to find version number example 5.36.8726.3
     $regex = ([regex]"\d+\.\d+\.\d+\.\d+")
     # sort numbers and get highest number
-    $version = (((iwr $url -UseBasicParsing).RawContent | Select-String "$regex" -AllMatches ).Matches.Value | sort -Descending -Unique)[0]
-
+    $version = (((Invoke-WebRequest $url -UseBasicParsing).RawContent | Select-String "$regex" -AllMatches ).Matches.Value | Sort-Object -Descending -Unique)[0] -split " " | Select-Object -Last 1
     # construct the download url for the latest version
     $URL64 = "https://download.microsoft.com/download/1/a/b/1abce8bb-2ecd-4941-9266-0344602ec6db/IntegrationRuntime_$version.msi"
 
