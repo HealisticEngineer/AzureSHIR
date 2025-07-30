@@ -24,7 +24,7 @@ function global:au_GetLatest {
     # sort numbers and get highest number
     $version = (((Invoke-WebRequest $url -UseBasicParsing).RawContent | Select-String "$regex" -AllMatches ).Matches.Value | Sort-Object -Descending -Unique)[0] -split " " | Select-Object -Last 1
     # construct the download url for the latest version
-    $URL64 = "https://download.microsoft.com/download/1/a/b/1abce8bb-2ecd-4941-9266-0344602ec6db/IntegrationRuntime_$version.msi"
+    $URL64 = "https://download.microsoft.com/download/578967c7-91d7-4d35-bec2-0aff59ec74b5/IntegrationRuntime_$version.msi"
 
     $Latest = @{ 
         URL64 = $URL64
