@@ -3,7 +3,6 @@ $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 
 $url        = ''
 $checksum   = ''
-$softwareName = 'microsoft-integration-runtime *5.55.9306.2*'
 
 $pp = Get-PackageParameters
 
@@ -20,7 +19,6 @@ $packageArgs = @{
   validExitCodes= @(0, 3010, 1641)
   checksum      = $checksum
   checksumType  = 'sha256'
-  softwareName  = $softwareName
 }
 
 Install-ChocolateyPackage @packageArgs
