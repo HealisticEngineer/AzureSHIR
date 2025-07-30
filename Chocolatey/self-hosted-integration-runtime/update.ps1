@@ -1,4 +1,8 @@
-import-module au
+Import-Module chocolatey-au
+
+function global:au_BeforeUpdate {
+    $Latest.Checksum64 = Get-RemoteChecksum $Latest.URL64
+}
 
 function global:au_SearchReplace {
     @{
@@ -31,4 +35,4 @@ function global:au_GetLatest {
     return $Latest
 }
 
-update -ChecksumFor 64
+update -ChecksumFor None -NoCheckChocoVersion
